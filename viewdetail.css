@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: 0;
+}
+
+.container {
+    height: 20vh;
+    width: 100%;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.navbar {
+    width: 130%;
+    height: 10vh;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    background: black;
+}
+
+nav {
+    flex: 1;
+    padding-left: 30%
+}
+
+.logo {
+    width: 200px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.container ul {
+    display: inline-flex;
+    list-style: none;
+    color: rgb(107, 115, 122);
+}
+
+.container ul li {
+    width: 150px;
+    margin: 15px;
+    padding: 15px;
+    font-size: 21px;
+}
+
+.container ul li a {
+    text-decoration: none;
+    color: #a0a0a0;
+}
+
+.sub-menu-1 {
+    display: none;
+}
+
+.container ul li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    background: black;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.container ul li:hover .sub-menu-1 ul {
+    display: block;
+    margin: 10px;
+}
+
+.container ul li:hover .sub-menu-1 ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #ff3c78;
+    background: transparent;
+    border-radius: 0px;
+    text-align: left;
+}
+
+a {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.active,
+.container ul li a:hover {
+    color: #ff3c78;
+}
+
+.footer {
+    color: white;
+    font-size: 4px;
+    background: black;
+}
+
+.logoimg #logo {
+    height: 300px;
+    width: 300px;
+    margin-left: 42%;
+}
+
+.footer h1 {
+    text-align: center;
+    font-size: 37px;
+    font-weight: bold;
+    word-spacing: 50px;
+    margin-top: -95px;
+}
+
+.footer p {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.social-icon {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.social-icon img {
+    width: 30px;
+    margin: 0 12px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.social-icon img:hover {
+    box-shadow: 0 0 20px 0 #eeaeca;
+}
+
+.seperate {
+    background-color: #ff3c78;
+    width: 670px;
+    height: 4px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 600px;
+}
+
+.footeradd {
+    text-align: center;
+    color: #fff;
+    margin-top: 100px;
+}
+
+.detailtable {
+    background-color: black;
+    margin-top: 0px;
+}
+
+.heading {
+    color: white;
+    text-align: center;
+}
+
+#dataTable thead tr th {
+    color: #f1f1f1;
+    text-align: center;
+}
+
+tbody tr td {
+    color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+table {
+    align-content: center;
+    /* background-color: #140F1A;*/
+    padding-left: 30%;
+}
+
+thead tr th {
+    padding: 50px;
+}
+
+td,
+th {
+    border: 1px solid #f1f1f1;
+    background-color: #140F1A;
+}

@@ -1,0 +1,13 @@
+<?php
+include('config.php');
+session_start();
+if(!isset($_SESSION['adminloginid']))
+{
+    header('location:loginadmin.php');
+}
+if(isset($_POST['logout']))
+{
+    session_destroy();
+    header('location:loginadmin.php');
+}
+?>
